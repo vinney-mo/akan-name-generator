@@ -21,10 +21,48 @@
         </div>
       </div>
       <div class="row d-flex justify-content-center main">
-        <div class="col-md-8 title">
-          <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-8"></div>
+        <div class="col-md-8 content">
+          <div class="row d-flex generator">
+            <div class="col-md-5 left">
+              <p>
+                there! This is a web application that takes your birthday and
+                calculates the day of the week you were born and then, depending
+                on your gender, outputs your Akan name. Akan names are derived
+                from Ghanian culture.
+              </p>
+            </div>
+            <div class="col-md-7 right">
+              <div class="mb-3">
+                <label for="dob" class="form-label">Date Of Birth</label>
+                <input type="date" class="form-control" id="dob" />
+              </div>
+              <div class="mb-3">
+                <label for="gender" class="form-label">Gender</label>
+                <div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="gender"
+                      id="male"
+                    />
+                    <label class="form-check-label" for="male"> Male </label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="gender"
+                      id="female"
+                      checked
+                    />
+                    <label class="form-check-label" for="female">
+                      Female
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
