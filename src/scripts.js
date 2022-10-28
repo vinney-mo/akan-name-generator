@@ -50,9 +50,10 @@ form.addEventListener("submit", (event) => {
   const dayOfWeekName = new Date(birthday).toLocaleString("default", {
     weekday: "long",
   });
+  let myAkanName = "";
   if (gender == 1) {
-    const myAkanName = maleAkans[dayOfWeekName];
+    myAkanName = maleAkans[dayOfWeekName];
   } else {
-    const myAkanName = femaleAkans[dayOfWeekName];
+    myAkanName = femaleAkans[dayOfWeekName];
   }
 });
