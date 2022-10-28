@@ -48,9 +48,9 @@ $ cd akan-names-generator
 ### Structure
 
 The content for all sections is found in [`index.html`](./index.html)\
-CSS File [`src/styles.css`](.src/styles.css)
-JS File [`src/scripts.js`](.src/scripts.js)
-Image files located at [`src/assets`](.src/assets)
+CSS File [`src/styles.css`](src/styles.css)
+JS File [`src/scripts.js`](src/scripts.js)
+Image files located at [`src/assets`](src/assets)
 
 ## Deployment
 
