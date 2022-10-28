@@ -26,6 +26,13 @@ close.addEventListener("click", (event) => {
   document.getElementById("myAkanDetails").innerHTML = "";
 });
 
+const clear = document.getElementById("clear");
+clear.addEventListener("click", (event) => {
+  document.getElementById("gakan").reset();
+  document.getElementById("myAkan").style["display"] = "none";
+  document.getElementById("myAkanDetails").innerHTML = "";
+});
+
 const form = document.getElementById("gakan");
 form.addEventListener("submit", (event) => {
   event.preventDefault();
