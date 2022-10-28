@@ -46,4 +46,8 @@ form.addEventListener("submit", (event) => {
   }
   const birthday = dob.value;
   const gender = document.querySelector('input[name="gender"]:checked').value;
+
+  const dayOfWeekName = new Date(birthday).toLocaleString("default", {
+    weekday: "long",
+  });
 });
