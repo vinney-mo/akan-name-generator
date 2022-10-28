@@ -20,6 +20,12 @@ const femaleAkans = {
   Saturday: "Amma",
 };
 
+const close = document.getElementById("close");
+close.addEventListener("click", (event) => {
+  document.getElementById("myAkan").style["display"] = "none";
+  document.getElementById("myAkanDetails").innerHTML = "";
+});
+
 const form = document.getElementById("gakan");
 form.addEventListener("submit", (event) => {
   event.preventDefault();
@@ -64,7 +70,8 @@ form.addEventListener("submit", (event) => {
   document.getElementById("gakan").reset();
   document.getElementById("submit").disabled = false;
   document.getElementById("submit").innerHTML = "Generate name";
-  document.getElementById("myAkan").innerHTML =
+  document.getElementById("myAkan").style["display"] = "block";
+  document.getElementById("myAkanDetails").innerHTML =
     "<p>Birthday : <strong>" +
     birthday +
     "</strong> Gender:  <strong>" +

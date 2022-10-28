@@ -41,3 +41,18 @@ a {
   display: none;
   margin-top: 10px;
 }
+.myAkan {
+  display: none;
+  font-size: 18px;
+  padding: 10px;
+  background: #0080000d;
+  border-radius: 20px;
+}
+.myAkan .myAkanDetails {
+  text-align: center;
+}
+
+.myAkan .close {
+  text-align: right;
+  color: red;
+}
