@@ -36,3 +36,8 @@ a {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
   padding: 20px;
 }
+.err {
+  color: #ff0000;
+  display: none;
+  margin-top: 10px;
+}
