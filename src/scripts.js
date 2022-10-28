@@ -119,8 +119,7 @@ form.addEventListener("submit", (event) => {
     "<p >You were born on a <strong>" +
     dayOfWeekName +
     "</strong></p>" +
-    "<p>You Akan name is <strong>" +
+    "<p>Your Akan name is <strong>" +
     myAkanName +
     "</strong></p>";
-  "<p>Your Akan name is <strong>" + myAkanName + "</strong></p>";
 });
