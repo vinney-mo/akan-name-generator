@@ -2,7 +2,7 @@
 
 ## Akan Names Generator!
 
-This repo contains an easy-to-customize Akan name generator that was created with css and Js. It is lightweight and comes with the Bootstrap. This is a web application that takes your birthday and calculates the day of the week you were born and then, depending on your gender, outputs your Akan name. Akan names are derived from Ghanian culture.
+This repo contains an Akan name generator that was created with css and Js. This is a web application that takes your birthday and calculates the day of the week you were born and then, depending on your gender, outputs your Akan name. Akan names are derived from Ghanian culture.
 
 ## Project Link
 
