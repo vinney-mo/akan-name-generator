@@ -44,6 +44,10 @@ form.addEventListener("submit", (event) => {
       err.innerHTML = "";
     }
   }
+
+  document.getElementById("submit").disabled = true;
+  document.getElementById("submit").innerHTML = "Generating . . .";
+
   const birthday = dob.value;
   const gender = document.querySelector('input[name="gender"]:checked').value;
 
@@ -51,9 +55,26 @@ form.addEventListener("submit", (event) => {
     weekday: "long",
   });
   let myAkanName = "";
-  if (gender == 1) {
+  if (gender == "Male") {
     myAkanName = maleAkans[dayOfWeekName];
   } else {
     myAkanName = femaleAkans[dayOfWeekName];
   }
+
+  document.getElementById("gakan").reset();
+  document.getElementById("submit").disabled = false;
+  document.getElementById("submit").innerHTML = "Generate name";
+  document.getElementById("myAkan").innerHTML =
+    "<p>Birthday : <strong>" +
+    birthday +
+    "</strong> Gender:  <strong>" +
+    gender +
+    "</strong> </p>" +
+    "<p >You were born on a <strong>" +
+    dayOfWeekName +
+    "</strong></p>" +
+    "<p>You Akan name is <strong>" +
+    myAkanName +
+    "</strong></p>";
+  "<p>You Akan name is <strong>" + myAkanName + "</strong></p>";
 });
