@@ -122,5 +122,5 @@ form.addEventListener("submit", (event) => {
     "<p>You Akan name is <strong>" +
     myAkanName +
     "</strong></p>";
-  "<p>You Akan name is <strong>" + myAkanName + "</strong></p>";
+  "<p>Your Akan name is <strong>" + myAkanName + "</strong></p>";
 });
