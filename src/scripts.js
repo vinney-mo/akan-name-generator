@@ -1,7 +1,26 @@
 let currentDate = new Date().toJSON().slice(0, 10);
 document.getElementById("dob").max = currentDate;
-const form = document.getElementById("gakan");
 
+const maleAkans = {
+  Sunday: "Kwasi",
+  Monday: "Kwadwo",
+  Tuesday: "Kwabena",
+  Wednesday: "Kwaku",
+  Thursday: "Yao",
+  Friday: "Kofi",
+  Saturday: "Kwame",
+};
+const femaleAkans = {
+  Sunday: "Akosua",
+  Monday: "Adwoa",
+  Tuesday: "Abenaa",
+  Wednesday: "Akua",
+  Thursday: "Yaa",
+  Friday: "Afua",
+  Saturday: "Amma",
+};
+
+const form = document.getElementById("gakan");
 form.addEventListener("submit", (event) => {
   event.preventDefault();
   const dob = document.getElementById("dob");
@@ -25,23 +44,6 @@ form.addEventListener("submit", (event) => {
       err.innerHTML = "";
     }
   }
+  const birthday = dob.value;
+  const gender = document.querySelector('input[name="gender"]:checked').value;
 });
-
-const maleAkans = {
-  Sunday: Kwasi,
-  Monday: Kwadwo,
-  Tuesday: Kwabena,
-  Wednesday: Kwaku,
-  Thursday: Yao,
-  Friday: Kofi,
-  Saturday: Kwame,
-};
-const femaleAkans = {
-  Sunday: Akosua,
-  Monday: Adwoa,
-  Tuesday: Abenaa,
-  Wednesday: Akua,
-  Thursday: Yaa,
-  Friday: Afua,
-  Saturday: Amma,
-};
