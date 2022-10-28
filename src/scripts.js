@@ -26,3 +26,22 @@ form.addEventListener("submit", (event) => {
     }
   }
 });
+
+const maleAkans = {
+  Sunday: Kwasi,
+  Monday: Kwadwo,
+  Tuesday: Kwabena,
+  Wednesday: Kwaku,
+  Thursday: Yao,
+  Friday: Kofi,
+  Saturday: Kwame,
+};
+const femaleAkans = {
+  Sunday: Akosua,
+  Monday: Adwoa,
+  Tuesday: Abenaa,
+  Wednesday: Akua,
+  Thursday: Yaa,
+  Friday: Afua,
+  Saturday: Amma,
+};
