@@ -1,12 +1,12 @@
-[![Github](https://img.shields.io/github/license/anilseervi/DevFolio?color=%2312c2e9&logo=github&style=for-the-badge)](https://github.com/vinney-mo/akan-names-generator/blob/main/LICENSE.md)
+[![Github](https://img.shields.io/github/license/anilseervi/DevFolio?color=%2312c2e9&logo=github&style=for-the-badge)](https://github.com/vinney-mo/akan-name-generator/blob/main/LICENSE.md)
 
-## Akan Names Generator!
+## Akan Name Generator!
 
-This repo contains an Akan name generator that was created with css and Js. This is a web application that takes your birthday and calculates the day of the week you were born and then, depending on your gender, outputs your Akan name. Akan names are derived from Ghanian culture.
+This repo contains an Akan name generator that was created with css and Js. This is a web application that takes your birthday and calculates the day of the week you were born and then, depending on your gender, outputs your Akan name. Akan namee are derived from Ghanian culture.
 
 ## Project Link
 
-To view, **[Click Here](https://vinney-mo.github.io/akan-names-generator/)**
+To view, **[Click Here](https://vinney-mo.github.io/akan-name-generator/)**
 
 ## Features
 
@@ -17,7 +17,7 @@ To view, **[Click Here](https://vinney-mo.github.io/akan-names-generator/)**
 
 ## Getting Started
 
-Here's a **Guide** to walk you through the process of setting this Akan names generator on your local machine.
+Here's a **Guide** to walk you through the process of setting this Akan name generator on your local machine.
 
 ### Prerequisites
 
@@ -25,14 +25,14 @@ You'll need [VSCode](https://code.visualstudio.com/) and [Git](https://git-scm.c
 
 ### How To Use
 
-In VSCode, Open the terminal and clone the akan-names-generator Repo.
+In VSCode, Open the terminal and clone the akan-name-generator Repo.
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/vinney-mo/akan-names-generator.git
+$ git clone https://github.com/vinney-mo/akan-name-generator.git
 
 # Go into the repository
-$ cd akan-names-generator
+$ cd akan-name-generator
 ```
 ---
 ### BDD
