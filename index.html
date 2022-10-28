@@ -20,9 +20,18 @@
         </div>
       </div>
       <div class="row d-flex justify-content-center main">
-        <div class="col-md-8 content">
+        <div class="col-md-9 content">
           <div class="row d-flex generator">
             <div class="col-md-6 left">
+              <div class="text-center">
+                <img
+                  src="src/assets/akan.svg"
+                  height="200"
+                  width="200"
+                  alt="AKAN Names"
+                />
+                <h3>Akan Names</h3>
+              </div>
               <p>
                 Hi there! This is a web application that takes your birthday and
                 calculates the day of the week you were born and then, depending
@@ -39,21 +48,21 @@
               </p>
             </div>
             <div class="col-md-6 right">
-              <div class="mb-3">
+              <div class="mb-2">
                 <h3>Find out your Akan Name</h3>
               </div>
               <form id="gakan">
-                <div class="mb-3">
+                <div class="mb-2">
                   <p>Fill in the details below</p>
                 </div>
-                <div class="mb-3">
+                <div class="mb-2">
                   <label for="dob" class="form-label"
                     >Date Of Birth (MM/DD/YYYY)</label
                   >
                   <input type="date" id="dob" class="form-control" />
                   <span class="err" id="dob-err"></span>
                 </div>
-                <div class="mb-4">
+                <div class="mb-3">
                   <label for="gender" class="form-label">Gender</label>
                   <div>
                     <div class="form-check">
@@ -81,7 +90,7 @@
                   </div>
                   <span class="err" id="gender-err"></span>
                 </div>
-                <div class="mb-4 d-flex justify-content-between">
+                <div class="mb-2 d-flex justify-content-between">
                   <button type="submit" class="btn btn-success" id="submit">
                     Generate name
                   </button>
@@ -90,7 +99,9 @@
               </form>
               <div class="myAkan" id="myAkan">
                 <div class="close">
-                  <button class="btn btn-outline-danger" id="close">X</button>
+                  <button class="btn btn-sm btn-outline-danger" id="close">
+                    X
+                  </button>
                 </div>
                 <div id="myAkanDetails" class="myAkanDetails"></div>
               </div>

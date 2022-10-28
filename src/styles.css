@@ -21,7 +21,8 @@ a {
   padding: 20px;
 }
 .main {
-  margin-top: 60px;
+  margin-top: 30px;
+  margin-top: 20px;
   align-items: center;
 }
 .generator {
@@ -29,7 +30,7 @@ a {
   margin: 25px 5px;
 }
 .generator .left {
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .content {
@@ -43,10 +44,13 @@ a {
 }
 .myAkan {
   display: none;
-  font-size: 18px;
+  font-size: 16px;
   padding: 10px;
   background: #0080520d;
   border-radius: 20px;
+}
+.myAkan p {
+  margin-bottom: 5px;
 }
 .myAkan .myAkanDetails {
   text-align: center;
