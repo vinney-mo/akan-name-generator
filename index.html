@@ -42,42 +42,53 @@
               <div class="mb-3">
                 <h3>Find out your Akan Name</h3>
               </div>
-              <div class="mb-3">
-                <p>Fill in the details below</p>
-              </div>
-              <div class="mb-3">
-                <label for="dob" class="form-label">Date Of Birth</label>
-                <input type="date" class="form-control" id="dob" />
-              </div>
-              <div class="mb-4">
-                <label for="gender" class="form-label">Gender</label>
-                <div>
-                  <div class="form-check">
-                    <input
-                      class="form-check-input"
-                      type="radio"
-                      name="gender"
-                      id="male"
-                    />
-                    <label class="form-check-label" for="male"> Male </label>
-                  </div>
-                  <div class="form-check">
-                    <input
-                      class="form-check-input"
-                      type="radio"
-                      name="gender"
-                      id="female"
-                      checked
-                    />
-                    <label class="form-check-label" for="female">
-                      Female
-                    </label>
+              <form>
+                <div class="mb-3">
+                  <p>Fill in the details below</p>
+                </div>
+                <div class="mb-3">
+                  <label for="dob" class="form-label"
+                    >Date Of Birth (MM/DD/YYYY)</label
+                  >
+                  <input
+                    type="date"
+                    id="dob"
+                    class="form-control"
+                    max="2022-12-31"
+                  />
+                </div>
+                <div class="mb-4">
+                  <label for="gender" class="form-label">Gender</label>
+                  <div>
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="gender"
+                        id="male"
+                      />
+                      <label class="form-check-label" for="male"> Male </label>
+                    </div>
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="gender"
+                        id="female"
+                        checked
+                      />
+                      <label class="form-check-label" for="female">
+                        Female
+                      </label>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="mb-4">
-                <button type="submit" class="btn btn-success">Submit</button>
-              </div>
+                <div class="mb-4">
+                  <button type="submit" class="btn btn-success">
+                    Generate name
+                  </button>
+                </div>
+              </form>
             </div>
           </div>
         </div>
