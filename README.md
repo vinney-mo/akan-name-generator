@@ -34,7 +34,7 @@ $ git clone https://github.com/vinney-mo/akan-names-generator.git
 # Go into the repository
 $ cd akan-names-generator
 ```
-
+---
 ### BDD
 
 - Page loads a Form
